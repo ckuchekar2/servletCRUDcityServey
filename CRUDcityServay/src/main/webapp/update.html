@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+    <style >
+    body
+   {
+   	background-image: url(peoples.jpg);
+   	background-size: cover;
+   }
+    
+    form
+    {
+    	border:solid black 0.4px;
+    	border-radius: 7px;
+    	padding: 20px;
+    	box-shadow: 3px 4px 7px;
+    	opacity: 0.8;
+    	margin-top: 4rem;
+    }
+    h1,h3
+    {
+    	padding-left: 10px;
+    	text-align: center;
+    }
+    
+    </style>
+
+</head>
+  <body>
+    <h1>...Janganana....</h1>
+	<h3>Update Record</h3>
+
+	
+	
+	<div class="container">
+		<form class="row g-3 position-absolute top-50 start-50 translate-middle" action="updateRecord" method="post">
+	<div class="col-md-6">
+    <label for="inputEmail4" class="form-label">ID</label>
+    <input type="number" class="form-control" id="inputEmail4" name="id">
+  </div>
+  <div class="col-md-6">
+    <label for="inputEmail4" class="form-label">Name</label>
+    <input type="text" class="form-control" id="inputEmail4" name="name" >
+  </div>
+  <div class="col-md-6">
+    <label for="inputPassword4" class="form-label">Contact number</label>
+    <input type="text" class="form-control" id="inputPassword4" name="contact">
+  </div>
+  
+  <div class="col-12">
+    <label for="inputAddress" class="form-label">Area</label>
+    <input type="text" class="form-control" id="inputAddress" name="area">
+  </div>
+  <div class="col-12">
+    <label for="inputAddress2" class="form-label">Profession</label>
+    <input type="text" class="form-control" id="inputAddress2" name="prof">
+  </div>
+  
+  <div class="col-12">
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </div>
+</form>
+	</div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    
+  </body>
+</html>
